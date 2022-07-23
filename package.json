@@ -1,0 +1,26 @@
+{
+  "name": "vue3-mapbox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*",
+    "src/MapboxMap.vue"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "rollup": "^2.77.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
